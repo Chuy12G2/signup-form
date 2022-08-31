@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+
+@font-face{
+    font-family: nordon;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+.background-container{
+    width: 40%;
+}
+
+.main-container{
+    display: flex;
+}
+
+.logo-container{
+    top: 25%;
+    position: absolute;
+    width: 40%;
+    height: 130px;
+    color: #fff;
+    background:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: nordon;
+    font-size: 3rem;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+}
+
+.odin-logo{
+    height: 100px;
+    width: auto;
+}
+
+/*** Form ***/
+
+.form-container{
+    box-sizing: border-box;
+    width: 60%;
+    height: 100vh;
+    padding: 150px 50px;
+    font-family: sans-serif;
+}
+
+h3{
+    margin-top: 1rem;
+    width: clamp(300px, 80%, 90%);
+}
+
+.form{
+    padding: 2rem 0;
+    max-width: 1000px;
+    min-width: 500px;
+}
+
+.form-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-list li{
+    width: 45%;
+    padding-top: 1.3rem;
+}
+
+.form-list input, .form-list label{
+    display: block;
+}
+
+.form-list label{
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.form-list input{
+    width: 80%;
+    font-size: 1rem;
+    padding: .2rem 0;
+}
+
+.form-list input:focus{
+    box-shadow: 0px 0px 4px 1px rgb(0, 0, 0.1);
+    border-color: blue;
+}
+
+.button{
+    margin: 2rem 0;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    background-color: #2596be;
+    border-color: #fff;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #2596be;
+}
